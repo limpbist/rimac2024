@@ -1,0 +1,100 @@
+p{
+    margin: 0px;
+}
+.CardListBox {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: 20px 0px 80px 0px;
+}
+
+.CardListPrincipal {
+    display: flex;
+    width: 288px;
+    height: 687px;
+    padding: 68px 32px 48px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    background: var(--Neutrals-N0, #FFF);
+    box-shadow: 0px 1px 32px 0px rgba(174, 172, 243, 0.35);
+}
+
+.titleListPrincipal {
+    color: var(--Neutrals-N700, #141938);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    align-self: stretch;
+}
+
+.titleListPriceNow {
+    color: var(--Neutrals-N700, #141938);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    align-self: stretch;
+}
+
+.titleListPriceBefore {
+    color: #7981B2;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    text-decoration-line: line-through;
+    text-decoration-color: #7981B2;
+    align-self: stretch;
+}
+
+.titleListPrice {
+    color: #7981B2;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.lineDefault {
+    margin: 24px 0px;
+}
+
+.buttonCardList {
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 32px;
+    background: var(--Red-RIMAC-R500---CTA, #FF1C44);
+    border:none;
+}
+
+.textButtonCardList {
+    color: var(--Neutrals-N0, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+
+.CardListSecondary {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+}

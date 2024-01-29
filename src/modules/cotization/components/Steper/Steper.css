@@ -1,0 +1,8 @@
+.Stepper_Horizontal {
+    display: flex;
+    width: 1360px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    background: var(--Neutrals-N100, #FAFBFF);
+}

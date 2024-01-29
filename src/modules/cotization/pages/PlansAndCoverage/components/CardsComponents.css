@@ -1,0 +1,92 @@
+.titleCards {
+    display: flex;
+    align-self: center;
+    color: var(--Neutrals-N700, #141938);
+    text-align: center;
+    justify-content: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+}
+
+.titleCards p {
+    width: 544px;
+    height: 96px;
+    margin: 0px 0px 8px 0px;
+}
+
+.subTitleCards {
+    display: flex;
+    align-self: center;
+    color: var(--Neutrals-N700, #141938);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    justify-content: center;
+}
+
+.subTitleCards p {
+    margin: 0px 0px 32px 0px;
+}
+
+.Principal {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.Secondary {
+    display: flex;
+    width: 256px;
+    height: 212px;
+    padding: 16px 24px 40px 24px;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 24px;
+    background: var(--Neutrals-N0, #FFF);
+    box-shadow: 0px 1px 32px 0px rgba(174, 172, 243, 0.35);
+}
+
+.Secondary .titlePrincipalCards {
+    margin: 8px 0px 8px 0px;
+}
+
+.Secondary .descripcionPrincipalCards {
+    margin: 0px
+}
+
+.icon_protectionLight {
+    align-self: flex-start;
+}
+.icon_addUserLight {
+    align-self: flex-start;
+}
+
+.titlePrincipalCards {
+    color: var(--Neutrals-N700, #141938);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    align-self: stretch;
+}
+
+.descripcionPrincipalCards {
+    color: var(--Neutrals-N700, #141938);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    align-self: stretch;
+}
