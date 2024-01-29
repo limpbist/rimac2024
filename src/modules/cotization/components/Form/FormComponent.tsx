@@ -10,7 +10,7 @@ function FormComponent () {
     const navigate = useNavigate();
     const { register, formState:{errors}, handleSubmit} = useForm();
 
-    const onSubmit = (data) => {
+    const onSubmit = (data:any) => {
         dispatch(getPaymentResponsible(data));
         navigate('/PlanesyCoberturas');
     }

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import useUser from '../../../hooks/useUser';
 import './CardsComponents.css';
-import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { getUser } from '../../../redux/userSlice';
 
@@ -10,7 +9,7 @@ function CardsComponent() {
 
     const {user} = useUser();
 
-    const {name, lastName, birthDay} = user;
+    const { name } = user;
 
     const handleClick = () => {
         console.log('Click Volver')

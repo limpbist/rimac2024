@@ -12,7 +12,7 @@ function usePlans() {
         getPlans()
     },[]);
 
-    return {plan};
+    return {plan} as any;
 }
 
 export default usePlans;

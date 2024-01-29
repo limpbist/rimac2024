@@ -31,19 +31,6 @@ const Stepper = () => {
     </>
   );
 };
-
-const Step1 = () => {
-  return <div>Paso 1: Contenido del primer paso</div>;
-};
-
-const Step2 = () => {
-  return <div>Paso 2: Contenido del segundo paso</div>;
-};
-
-const Step3 = () => {
-  return <div>Paso 3: Contenido del tercer paso</div>;
-};
-
 export default Stepper;
 
 

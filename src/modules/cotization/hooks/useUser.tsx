@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { rimacApi } from "../../../api/rimacApi";
 import axios from "axios";
-import { useDispatch } from "react-redux";
-import { getUser } from "../redux/userSlice";
+
 
 function useUser() {
     const [user, setUser] = useState([]);
@@ -17,7 +15,7 @@ function useUser() {
         getUser()
     },[]);
 
-    return {user};
+    return {user} as any;
 }
 
 export default useUser;

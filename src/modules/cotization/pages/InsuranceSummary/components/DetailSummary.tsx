@@ -5,7 +5,6 @@ function DetailSummary() {
 
     const data = useSelector((state:any) => state.user)
     const handleClick = () => {
-        console.log('Click Volver')
      }
     return (
 

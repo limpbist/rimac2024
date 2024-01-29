@@ -1,24 +1,23 @@
 import { Link } from 'react-router-dom';
 import usePlans from '../../../hooks/usePlans';
 import './CardsListComponent.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { changeEmail, getPlans } from '../../../redux/userSlice';
+import { useDispatch} from 'react-redux';
+import { getPlans } from '../../../redux/userSlice';
 
 function CardsListComponent() {
     const dispatch = useDispatch();
-    const dataPlansAndCoverage = useSelector((state) => state.user.email)
 
     const {plan} = usePlans();
  
     const {list} = plan;
 
-    const handleClick = (data) => {
+    const handleClick = (data:any) => {
         dispatch(getPlans(data))
     }
     return (
         <div className='CardListBox'> 
         {
-            list?.map((item) => {
+            list?.map((item:any) => {
                 return(
                 <div className='CardListPrincipal'>
                     <div>
@@ -32,7 +31,7 @@ function CardsListComponent() {
                     </div>
                     <img src='assets/icon_lineDefault.svg' />
                     <div className=''>
-                        {item?.description.map((list) => {
+                        {item?.description.map((list:any) => {
                             return (
                                 <ul>
                                 <li>{list}</li>
