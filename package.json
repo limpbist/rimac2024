@@ -1,6 +1,7 @@
 {
   "name": "proyecto-rimac",
   "private": true,
+  "homepage": "https://limpbist.github.io/rimac2024/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
