@@ -101,7 +101,7 @@ body {
 }
 
 .rectangle {
-    width: 960px;
+    /* width: 960px; */
     height: 560px;
     flex-shrink: 0;
 
@@ -109,7 +109,7 @@ body {
     background: #D9D9D9;
 
     flex-shrink: 0;
-    background: url("image_Home.svg"), lightgray 50% / cover no-repeat;
+    /* background: url('image_Home.svg'), lightgray 50% / cover no-repeat; */
 }
 
 .footer {

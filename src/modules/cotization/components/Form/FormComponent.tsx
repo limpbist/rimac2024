@@ -21,7 +21,11 @@ function FormComponent () {
                 <p className='text__promo'>Seguro Salud Flexible</p>
                 <p className='subtitle'>Creado para ti y tu familia</p>
                 </div>
-                <div className='imageForm'></div>
+                <div className='imageForm'>
+                    <div>
+                    <img src='image_Home.svg'/>
+                    </div>
+                </div>
                 </div>
                 <div className='description'>
                     <p>Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.</p>

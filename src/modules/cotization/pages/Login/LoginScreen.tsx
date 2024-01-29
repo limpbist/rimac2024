@@ -18,6 +18,7 @@ function LoginScreen() {
                     <div className='card'>
                         <div className='mask'>
                             <div className='rectangle'>
+                            <img src='image_Home.svg'/>
                             </div>
                         </div>
                     </div>
